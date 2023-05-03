@@ -48,6 +48,13 @@
                         </li>
                     </ul>
 
+                    
+                    @auth
+                    <a href="{{ route('projects.index') }}" class="btn btn-primary">
+                        Project
+                    </a>
+                    @endauth
+
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
